@@ -1,0 +1,45 @@
+input[type=text1],select,textarea{
+    width: 30%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    margin-bottom: 10px;
+}
+input[type=submit]{
+    background-color: rgb(253, 165, 165);
+    color: rgb(156, 100, 32);
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+.input[type=submit]:hover{
+    background-color: rgb(253, 123, 123);
+}
+label{
+    color: rgb(145, 96, 34);
+    font-size: 19px;
+}
+form{
+    margin-top: -19px;
+}
+#country{
+    width: 95%;
+}
+option[value=text1]{
+    background-color: red;
+}
+option[value=text2]{
+    background-color: blue;
+}
+body{
+    background-image: url(页面.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-x;
+}
+p.right4-p2{
+    text-align: center;
+font-weight: bold;
+}

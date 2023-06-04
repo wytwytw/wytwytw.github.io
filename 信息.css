@@ -1,0 +1,20 @@
+td, th { border: 3px solid black;
+    text-align: center
+}
+body{
+    font-size: 50px;
+background-image: url("页面.png");
+background-position: center;
+background-size: cover;
+background-repeat: repeat-x;
+font-family: serif;
+}
+table{
+    width: 70%;
+}
+th{
+    height: 40px;
+}
+.e1{
+    font-weight: bold;
+}

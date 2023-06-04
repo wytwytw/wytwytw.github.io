@@ -1,0 +1,8 @@
+body{
+    background-image: url(页面.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-x;
+    font-size: 40px;
+    font-weight: bold;
+}

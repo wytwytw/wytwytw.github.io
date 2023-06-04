@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("页面.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-x;
+    font-family: serif;
+
+}
+
+#header{
+    font-weight: normal;
+      font-size: 18px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: right;
+      border-radius: 30px;
+      background-image: url("页面.png")
+}
+
+#header h1{
+    font-family: 'ss';
+}
+
+#leader{
+    font-family: 's';
+   font-weight: normal;
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    top: 12px;
+}
+
+nav {
+    background-image: url("页面.png");
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-position: center;
+    border-radius: 30px;
+	margin: 0;
+    font-weight: bold;
+}
+nav ul {
+	margin-top: 15px;
+	list-style-type: none;
+	padding: 10px 0px 10px 0px;
+}
+nav ul li {
+	display: inline;
+	padding: 5px 30px 5px 30px;
+}
+nav ul li a:link, nav ul li a:visited {	
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li.selected {
+	font-weight: bold;
+}
+div#tableContainer {
+	display: table;
+	border-spacing: 10px;
+}
+
+div#tableRow {
+	display: table-row;
+}
+section#主旨, section#范本{
+    display: table-cell;
+    font-family: 'ss';
+    font-size: 17px;
+    padding-right: 30px;
+    
+}
+section#网站功能介绍{
+    display: table-cell;
+    font-family: 'ss';
+    font-size: 17px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+p.f1{
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+p.f2{
+    color: white;
+}
+
+p.题目{
+    font-family: 'ss';
+    position: relative;
+    left: 150px;
+    font: size 24px; 
+    font-weight: bold;
+}
+
+p.内容{
+    font-family: 'ss';
+    font-size: 18px;
+}
+
+#作品目录导航{
+	text-align:			center;
+    background-image: url("页面.png");
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-position: center;
+    border-radius: 30px;
+    padding-right:		20px;
+	padding-left:		20px;
+    padding-bottom: 100px;
+	margin-left:		20px;
+    float: right; 
+}
+
+#作品目录导航 blockquote{
+    font-family: 'ss';
+    font-size: 19px;
+}
+	
+h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p.引用{
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'ss';
+    font-size: 36px;
+    text-align: center;
+    color: white;
+}
+    
+footer{
+    font-family: serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+@font-face {
+    font-family: 'ss';
+    src: url('汉仪北魏写经w.ttf');
+}  
+@font-face {
+    font-family: 's';
+    src: url('汉仪尚巍手书w.ttf');
+}
